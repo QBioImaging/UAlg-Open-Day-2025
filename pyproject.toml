@@ -1,0 +1,17 @@
+[project]
+name = "od2025"
+version = "0.0.1"
+license = { file = "LICENSE.txt" }
+description = "Computer vision, open day 2025, UAlg"
+maintainers = [
+    { name = "QBI", email = "tmcorreia@ualg.pt" },
+]
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.3.4",
+    "numpy>=1.23.5",
+    "opencv-python>=4.11.0",
+    "segment-anything @ git+https://github.com/facebookresearch/segment-anything.git",
+    "torch>=1.8.1",
+    "torchvision>=0.9.1",
+]
